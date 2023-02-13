@@ -1,4 +1,4 @@
-# Android device tree for asus ASUS_X01AD (ASUS_X01A_1)
+# Android device tree for asus X01AD (X01A_1)
 
 ```
 #

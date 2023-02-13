@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),ASUS_X01A_1)
+ifeq ($(TARGET_DEVICE),X01AD)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

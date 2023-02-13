@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_ASUS_X01A_1.mk
+    $(LOCAL_DIR)/twrp_X01AD.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_ASUS_X01A_1-user \
-    omni_ASUS_X01A_1-userdebug \
-    omni_ASUS_X01A_1-eng
+    twrp_X01AD-user \
+    twrp_X01AD-userdebug \
+    twrp_X01AD-eng

@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_ASUS_X01A_1-user
-add_lunch_combo omni_ASUS_X01A_1-userdebug
-add_lunch_combo omni_ASUS_X01A_1-eng
+add_lunch_combo twrp_X01AD-user
+add_lunch_combo twrp_X01AD-userdebug
+add_lunch_combo twrp_X01AD-eng

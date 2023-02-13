@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/asus/ASUS_X01A_1
+DEVICE_PATH := device/asus/X01AD
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -41,8 +41,8 @@ BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
-TARGET_KERNEL_CONFIG := ASUS_X01A_1_defconfig
-TARGET_KERNEL_SOURCE := kernel/asus/ASUS_X01A_1
+TARGET_KERNEL_CONFIG := X01AD_defconfig
+TARGET_KERNEL_SOURCE := kernel/asus/X01AD
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
